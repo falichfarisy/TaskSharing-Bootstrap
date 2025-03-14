@@ -1,0 +1,50 @@
+.dynamic-bg {
+        background: linear-gradient(45deg, #ff0000, #0000ff, #00ff00, #ff00ff);
+        background-size: 400% 400%;
+        animation: gradientAnimation 100s infinite alternate;
+    }
+
+    @keyframes gradientAnimation {
+        0% { background-position: 0% 50%; }
+        100% { background-position: 100% 50%; }
+    }
+
+.dotted {
+    border-bottom: 8px dotted;
+        width: 100%;
+        animation: changeColor 2s infinite alternate;
+    }
+
+    @keyframes changeColor {
+        0% { border-color: #6A1B9A; }
+        50% { border-color: #F0A500; }
+        100% { border-color: #D81B60; }
+    }
+
+
+.primary {
+    background-color: #6A1B9A;
+}
+.secondary {
+    color: #D81B60;
+}
+.background-primary {
+    background-color: #1E1E2E;
+}
+.background-secondary {
+    background-color: #D81B60;
+}
+.background-third {
+    background-color: #F0F2A6;
+}
+.tx-primary {
+    color: #F0A500;
+}
+.tx-secondary {
+    color: #C06C84;
+}
+.button-primary {
+    color: #F28F3B;
+    background-color: #F28F3B;
+}
+
